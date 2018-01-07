@@ -2,6 +2,7 @@
 title: "Hello world"
 date: 2017-12-29T21:28:36-08:00
 draft: true
+type: post
 ---
 
 # Today I read a cool blog post

@@ -1,18 +1,18 @@
-baseURL = "http://jaredfowler.com/blog"
+baseUrl = "//jaredfowler.com/site/"
 languageCode = "en-us"
 title = "jafow blog"
 theme = "hugo-journal"
 
 [params]
-description = "blog for jafow"
-githubUsername = "jafow"
-twitterUsername = "@jared_fowler"
-tagline = "computers, sounds, etc"
+    description = "blog for jafow"
+    githubUsername = "jafow"
+    twitterUsername = "@jared_fowler"
+    tagline = "computers, sounds, etc"
 
 [params.work]
-jobTitle = "software engineer"
+    jobTitle = "software engineer"
 
 [params.gpg]
-key = "0x5BE40D6706B5EFB4"
-fingerprint = "8979 F90F D8FD 1015 8BCE  A284 5BE4 0D67 06B5 EFB4"
-link = "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x5BE40D6706B5EFB4"
+    key = "0x5BE40D6706B5EFB4"
+    fingerprint = "8979 F90F D8FD 1015 8BCE  A284 5BE4 0D67 06B5 EFB4"
+    link = "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x5BE40D6706B5EFB4"
