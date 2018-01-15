@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=$USER
+HOST=$HOST
+DIR=jafow-blog/
+
+hugo && rsync -avz --delete public ${HOST}:~/${DIR}
+
+exit 0
