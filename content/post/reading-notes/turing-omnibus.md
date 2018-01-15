@@ -1,5 +1,5 @@
 ---
-title: "New Turning Omnibus"
+title: "Reading: New Turning Omnibus"
 date: 2018-01-07
 draft: true
 type: post
