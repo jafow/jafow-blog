@@ -1,7 +1,7 @@
 #!/bin/sh
 USER=$USER
 HOST=$HOST
-DIR=jafow-blog/
+DIR=very-good-website.xyz/
 
 hugo && rsync -avz --delete public ${HOST}:~/${DIR}
 
