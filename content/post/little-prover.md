@@ -1,7 +1,7 @@
 ---
 title: "Reading: Little Prover"
 date: 2018-01-16T13:35:38-08:00
-draft: false
+draft: true
 tag: reading-notes
 ---
 
@@ -70,3 +70,42 @@ define and save it in Dr Rackets editor window.
     then writing the expression. There might be a way to do matching parens in
     Dr Racket, but I haven't looked into it.
     
+# Ch4
+*Total*
+A function is _total_ if it evaluates to an expression that has a value, no
+matter what value is passed to it.
+
+## What is (size x)?
+This is not intuitive yet:
+```scheme
+(size '(a b c))
+; 3
+
+(size '(a (b c)))
+; 4
+```
+
+This is even less intuitive, but informative!
+```scheme
+(size '(a (cons 'b (c))))
+; 8
+
+(size '(a (cons 'b '(c))))
+; 10
+```
+
+So creating a list using `'()` is different from a `cons`.
+
+```scheme
+(cons '() (cons '() '()))
+; (() ())
+
+(size (cons '() (cons '() '())))
+; 2
+```
+
+# ch5
+Frustrating: things are starting to get interesting, but at the same LESS
+practical. So I wrestle with justifying the time and effort of reading,
+understanding, typing out and even writing about the experience of reading the
+book, versus making something "practical" that will "help advance my career". 
