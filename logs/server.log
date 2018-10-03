@@ -1,0 +1,393 @@
+[2018-07-08 23:44:07,339] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-08 23:44:08,296] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-08 23:44:08,297] <AWT-EventQueue-0> INFO  system - UUID: 2f27c556-4858-4d6c-9860-b97bcdc8fa86
+[2018-07-08 23:44:08,297] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-08 23:44:08,299] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.super.Ô00000(Unknown Source)
+	at com.ubnt.service.new.d.<init>(Unknown Source)
+	at com.ubnt.service.new.String.<init>(Unknown Source)
+	at com.ubnt.service.new.String.øÔO000(Unknown Source)
+	at com.ubnt.ace.null.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-08 23:44:08,302] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-08 23:44:08,302] <AWT-EventQueue-0> INFO  system - UniFi 5.8.23 (build atag_5.8.23_11014 - release) is started
+[2018-07-08 23:44:08,302] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-08 23:44:08,306] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-08 23:44:08,323] <AWT-EventQueue-0> INFO  system - Current System IP: 104.33.219.124
+[2018-07-08 23:44:08,323] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-08 23:44:08,530] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-08 23:44:08,531] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-08 23:44:08,966] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.new.G.o00000(Unknown Source)
+	at com.ubnt.service.new.G.Ò00000(Unknown Source)
+	at com.ubnt.service.new.d.<init>(Unknown Source)
+	at com.ubnt.service.new.String.<init>(Unknown Source)
+	at com.ubnt.service.new.String.øÔO000(Unknown Source)
+	at com.ubnt.ace.null.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-08 23:45:54,981] <ssh> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2018-07-08 23:59:28,742] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-08 23:59:29,111] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-08 23:59:29,111] <AWT-EventQueue-0> INFO  system - UUID: 50914477-781e-42b7-b547-19f71c93d3a9
+[2018-07-08 23:59:29,112] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-08 23:59:29,115] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.A.Ô00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-08 23:59:29,118] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-08 23:59:29,118] <AWT-EventQueue-0> INFO  system - UniFi 5.8.24 (build atag_5.8.24_11016 - release) is started
+[2018-07-08 23:59:29,118] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-08 23:59:29,121] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-08 23:59:29,139] <AWT-EventQueue-0> INFO  system - Current System IP: 104.33.219.124
+[2018-07-08 23:59:29,139] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-08 23:59:29,368] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-08 23:59:29,369] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-08 23:59:29,939] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.OoOO.oOoO.o00000(Unknown Source)
+	at com.ubnt.service.OoOO.oOoO.Ò00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-08 23:59:41,393] <ssh> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2018-07-09 00:21:13,609] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-09 00:21:13,985] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-09 00:21:13,986] <AWT-EventQueue-0> INFO  system - UUID: 28e2cd09-13e5-4a6d-8e10-5d0ebec208aa
+[2018-07-09 00:21:13,986] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-09 00:21:13,989] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.A.Ô00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-09 00:21:13,991] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-09 00:21:13,992] <AWT-EventQueue-0> INFO  system - UniFi 5.8.24 (build atag_5.8.24_11016 - release) is started
+[2018-07-09 00:21:13,992] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-09 00:21:13,994] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-09 00:21:14,012] <AWT-EventQueue-0> INFO  system - Current System IP: 104.33.219.124
+[2018-07-09 00:21:14,012] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-09 00:21:14,261] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-09 00:21:14,262] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-09 00:21:14,650] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.OoOO.oOoO.o00000(Unknown Source)
+	at com.ubnt.service.OoOO.oOoO.Ò00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-09 00:22:01,006] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-09 00:22:01,372] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-09 00:22:01,372] <AWT-EventQueue-0> INFO  system - UUID: c6b929ab-20cb-4ed8-a910-97dcc2268283
+[2018-07-09 00:22:01,373] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-09 00:22:01,376] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.A.Ô00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-09 00:22:01,379] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-09 00:22:01,379] <AWT-EventQueue-0> INFO  system - UniFi 5.8.24 (build atag_5.8.24_11016 - release) is started
+[2018-07-09 00:22:01,379] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-09 00:22:01,382] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-09 00:22:01,399] <AWT-EventQueue-0> INFO  system - Current System IP: 104.33.219.124
+[2018-07-09 00:22:01,399] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-09 00:22:01,627] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-09 00:22:01,627] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-09 00:22:02,126] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.OoOO.oOoO.o00000(Unknown Source)
+	at com.ubnt.service.OoOO.oOoO.Ò00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-09 00:23:13,336] <ssh> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2018-07-21 23:16:32,442] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-21 23:16:33,326] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-21 23:16:33,327] <AWT-EventQueue-0> INFO  system - UUID: 1a9eeb28-b92c-4abe-8c12-93f98466bea3
+[2018-07-21 23:16:33,327] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-21 23:16:33,330] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.A.Ô00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-21 23:16:33,332] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-21 23:16:33,332] <AWT-EventQueue-0> INFO  system - UniFi 5.8.24 (build atag_5.8.24_11016 - release) is started
+[2018-07-21 23:16:33,332] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-21 23:16:33,337] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-21 23:16:33,362] <AWT-EventQueue-0> INFO  system - Current System IP: 192.168.1.40
+[2018-07-21 23:16:33,363] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-21 23:16:33,538] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-21 23:16:33,539] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-21 23:16:34,129] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.OoOO.oOoO.o00000(Unknown Source)
+	at com.ubnt.service.OoOO.oOoO.Ò00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-21 23:20:29,321] <main> WARN  system - reload system.properties failed: file not found
+[2018-07-21 23:20:29,690] <AWT-EventQueue-0> INFO  system - *** Running for the first time, creating identity ***
+[2018-07-21 23:20:29,691] <AWT-EventQueue-0> INFO  system - UUID: 1c605e89-de85-42d1-9eaa-47f5e7d7b3bd
+[2018-07-21 23:20:29,691] <AWT-EventQueue-0> WARN  system - reload system.properties failed: file not found
+[2018-07-21 23:20:29,696] <AWT-EventQueue-0> WARN  system - ServiceConfig - cannot write /usr/lib/unifi/data/system.properties.
+java.io.FileNotFoundException: /usr/lib/unifi/data/system.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.A.Ô00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2018-07-21 23:20:29,699] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-21 23:20:29,700] <AWT-EventQueue-0> INFO  system - UniFi 5.8.24 (build atag_5.8.24_11016 - release) is started
+[2018-07-21 23:20:29,700] <AWT-EventQueue-0> INFO  system - ======================================================================
+[2018-07-21 23:20:29,703] <AWT-EventQueue-0> INFO  system - BASE dir:/usr/lib/unifi
+[2018-07-21 23:20:29,722] <AWT-EventQueue-0> INFO  system - Current System IP: 192.168.1.40
+[2018-07-21 23:20:29,722] <AWT-EventQueue-0> INFO  system - Hostname: beepbox
+[2018-07-21 23:20:29,936] <AWT-EventQueue-0> INFO  system - Valid keystore is missing. Generating one ...
+[2018-07-21 23:20:29,936] <AWT-EventQueue-0> INFO  system - Generating Certificate[UniFi]... please wait...
+[2018-07-21 23:20:30,321] <AWT-EventQueue-0> INFO  system - Certificate generation failed
+java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.ubnt.service.OoOO.oOoO.o00000(Unknown Source)
+	at com.ubnt.service.OoOO.oOoO.Ò00000(Unknown Source)
+	at com.ubnt.service.OoOO.dosuper.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.<init>(Unknown Source)
+	at com.ubnt.service.OoOO.D.floatfor(Unknown Source)
+	at com.ubnt.ace.OooO.<init>(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
