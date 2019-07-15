@@ -1,7 +1,7 @@
 ---
 title: "Reading: Little Prover"
 date: 2018-01-16T13:35:38-08:00
-draft: true
+draft: false
 tag: reading-notes
 ---
 
