@@ -24,6 +24,7 @@ steps:
     stage: build
     commands:
       - mkdir -p .ssh
+      - ssh-keyscan -H "${HOST}" >> .ssh/known_hosts
       - echo "${SSH_KEY}" | tr \'"${SPLIT_CHAR}"\' '\n' > .ssh/gh-deploy
       - chmod 600 .ssh/gh-deploy
       - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > .ssh/config
