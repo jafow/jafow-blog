@@ -14,6 +14,9 @@ steps:
     description: build
     stage: build
     type: build
+    dockerfile: Dockerfile
+    image_name: jafow/jafow-blog
+    tag: "${{CF_SHORT_REVISION}}"
   deploy:
     image: "${{build}}"
     title: deploy
