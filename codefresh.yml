@@ -27,5 +27,4 @@ steps:
       - echo "${SSH_KEY}" | tr \'"${SPLIT_CHAR}"\' '\n' > ~/.ssh/gh-deploy
       - chmod 600 ~/.ssh/gh-deploy
       - hugo
-      - rsync -avz --delete public gh-deploy@${HOST}:/var/www/very-good-website.xyz/
-
+      - rsync -az -O --delete public -e 'ssh -i ~/.ssh/gh-deploy' gh-deploy@${HOST}:/var/www/very-good-website.xyz/
