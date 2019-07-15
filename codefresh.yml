@@ -24,9 +24,9 @@ steps:
     stage: build
     commands:
       - mkdir -p .ssh
-      - ssh-keyscan -H "${HOST}" >> .ssh/known_hosts
+      - ssh-keyscan -t ed25519 -H "${HOST}" >> .ssh/known_hosts
       - echo "${SSH_KEY}" | tr \'"${SPLIT_CHAR}"\' '\n' > .ssh/gh-deploy
       - chmod 600 .ssh/gh-deploy
       - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > .ssh/config
-      - hugo
-      - rsync -az -O --delete public -e 'ssh -i .ssh/gh-deploy' gh-deploy@${HOST}:/var/www/very-good-website.xyz/
+      # - hugo
+      - rsync -az -O --delete public -e "ssh -i .ssh/gh-deploy -o StrictHostKeyChecking=no" gh-deploy@${HOST}:/var/www/very-good-website.xyz/
