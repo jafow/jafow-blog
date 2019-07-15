@@ -22,7 +22,6 @@ steps:
     title: deploy
     description: deploy
     stage: build
-    working_directory: ${{main_clone}}
     commands:
       - mkdir -p ~/.ssh
       - echo "${SSH_KEY}" | tr \'"${SPLIT_CHAR}"\' '\n' > ~/.ssh/gh-deploy
