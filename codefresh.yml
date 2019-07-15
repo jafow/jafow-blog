@@ -1,0 +1,29 @@
+version: "1.0"
+stages:
+  - "clone"
+  - "build"
+steps:
+  main_clone:
+    type: "git-clone"
+    description: "Cloning main repository..."
+    repo: "jafow/jafow-blog"
+    revision: "${{CF_BRANCH}}"
+    stage: "clone"
+  build:
+    title: build
+    description: build
+    stage: build
+    type: build
+  deploy:
+    image: "${{build}}"
+    title: deploy
+    description: deploy
+    stage: build
+    working_directory: ${{main_clone}}
+    commands:
+      - mkdir -p ~/.ssh
+      - echo "${SSH_KEY}" | tr \'"${SPLIT_CHAR}"\' '\n' > ~/.ssh/gh-deploy
+      - chmod 600 ~/.ssh/gh-deploy
+      - hugo
+      - rsync -avz --delete public gh-deploy@${HOST}:/var/www/very-good-website.xyz/
+
