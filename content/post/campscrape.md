@@ -2,7 +2,7 @@
 title: "Campscrape"
 date: 2019-07-14T20:50:18-07:00
 draft: false
-tag: pi, raspberry-pi, python
+tag: pi, raspberry-pi, python, programming
 ---
 
 # camping with computers

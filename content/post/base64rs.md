@@ -2,7 +2,7 @@
 title: "b64rs"
 date: 2018-10-02T23:15:26-07:00
 draft: false
-tags: rust, knowledge
+tags: rust, knowledge, programming
 ---
 
 # b'aGVsbG8gd29ybGQ='
