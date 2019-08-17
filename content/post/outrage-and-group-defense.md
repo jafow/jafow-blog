@@ -2,7 +2,7 @@
 title: "Outrage and Group Defense"
 date: 2018-01-15T21:19:58-08:00
 draft: false
-tag: community
+tag: community, reading-notes
 ---
 
 ## nudge for healthy online communities

@@ -3,7 +3,7 @@ title: "waitid() and escape"
 date: 2017-12-29T21:28:36-08:00
 draft: true
 type: post
-tag: hello
+tag: reading-notes, programming, docker
 ---
 
 # Today I read a cool blog post
