@@ -1,7 +1,7 @@
 ---
 title: "Bitwise And Not Like the Other"
 date: 2019-10-06T10:33:36-07:00
-draft: false
+draft: true
 ---
 ![bits](/images/bitwise.jpg)
 
