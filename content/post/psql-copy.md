@@ -1,7 +1,7 @@
 ---
 title: "psql copy hack"
 date: 2019-10-11T22:15:37-07:00
-draft: true
+draft: false
 ---
 
 ![fun scripts](/images/psql.jpg)
