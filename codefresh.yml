@@ -15,8 +15,9 @@ steps:
     stage: build
     type: build
     dockerfile: Dockerfile
-    image_name: jafow/jafow-blog
+    image_name: jred/very-good-website.xyz
     tag: "${{CF_SHORT_REVISION}}"
+    registry: dockerhub
   deploy:
     image: "${{build}}"
     title: deploy
