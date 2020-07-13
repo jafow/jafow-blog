@@ -1,6 +1,6 @@
 ---
 title: "Configurable Pod Commands With Helm and Helmfile"
-date: 2019-10-19T17:15:46-07:00
+date: 2020-07-12T17:15:46-07:00
 draft: false
 tags: helm, helmfile, k8s
 ---
