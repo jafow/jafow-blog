@@ -2,6 +2,7 @@
 title: "Unifi Ap Controlled by Remote Linode"
 date: 2019-09-13T09:54:21-07:00
 draft: false
+summary: Install notes on my Ubiquiti home network
 ---
 
 Previously posted notes from [installing a Unifi AP and EdgeMax router](https://very-good-website.xyz/post/edgerouter-and-unifi-ac-home-networking/).

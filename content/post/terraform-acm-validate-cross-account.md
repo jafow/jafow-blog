@@ -3,7 +3,9 @@ title: "Terraform ACM cert validation Cross Account"
 description: "this has a description"
 date: 2019-11-03T20:36:51-08:00
 draft: false
-tags: devops, terraform
+tags: ["devops", "terraform"]
+summary: "Terraform creating ACM certs with DNS validation in other accounts for
+vanity SAN names" 
 ---
 
 I wanted to create a cert in ACM with an associated [Subject Alternative Name (SAN)](https://en.wikipedia.org/wiki/Subject_Alternative_Name)

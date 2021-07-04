@@ -2,6 +2,7 @@
 title: "psql copy hack"
 date: 2019-10-11T22:15:37-07:00
 draft: false
+summary: Here is a helpful workaround for multiline psql commands using FORMAT
 ---
 
 ![fun scripts](/images/psql.jpg)

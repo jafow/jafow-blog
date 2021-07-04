@@ -2,7 +2,8 @@
 title: "Configurable Pod Commands With Helm and Helmfile"
 date: 2020-07-12T17:15:46-07:00
 draft: false
-tags: helm, helmfile, k8s
+tags: ["helm", "helmfile", "k8s"]
+summary: Helmfile and helm template for rendering jobs with commands from values
 ---
 
 ##### Enable launching a Pod with different commands

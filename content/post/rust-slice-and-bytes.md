@@ -2,7 +2,8 @@
 title: "Rust: Slice and Bytes"
 date: 2018-11-22T11:31:35-08:00
 draft: false
-tags: rust, programming
+tags: ["rust", "programming"]
+summary: Here are some examples of comparing vectors, arrays, slices, and bytes that I've confused more than once. 
 ---
 # vectors, arrays, slices, and bytes
 Here are some examples of comparing vectors, arrays, slices, and bytes that I've confused more than once.

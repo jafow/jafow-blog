@@ -3,6 +3,7 @@ title: "Reading: New Turning Omnibus"
 date: 2018-01-07
 draft: false
 type: post
+summary: "Reading-New Turning Omnibus. Lots of fun"
 ---
 
 # 58. Predicate Calculus

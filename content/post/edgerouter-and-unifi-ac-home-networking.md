@@ -2,7 +2,8 @@
 title: "Installing EdgeRouterX and Unifi AC Access Point"
 date: 2018-07-20T13:35:38-08:00
 draft: false
-tag: diy, networking, knowledge
+tag: ["diy", "networking", "knowledge"]
+summary: Installing a cool home WLAN
 ---
 
 # Installing a cool home WLAN

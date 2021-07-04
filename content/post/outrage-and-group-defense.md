@@ -2,7 +2,9 @@
 title: "Outrage and Group Defense"
 date: 2018-01-15T21:19:58-08:00
 draft: false
-tag: community, reading-notes
+tag: ["community", "reading-notes"]
+summary: "online communities can avoid the Dumpster Fire when they are focused
+around a specific shared goal." 
 ---
 
 ## nudge for healthy online communities

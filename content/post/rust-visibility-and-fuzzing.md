@@ -2,6 +2,7 @@
 title: "Rust Visibility and Fuzzing"
 date: 2020-07-25T11:14:45-07:00
 draft: false
+summary: Looking at rust's visibility from fuzzing
 ---
 
 Trying to fuzz a type that is defined with `pub(crate)` visibility using
@@ -46,7 +47,7 @@ and be reachable or visible to its crate but kept private from the external use
 via its use in `mod.rs` 
 
 **mod.rs**
-```
+```rust
 mod tacos;
 use tacos::Tacos;
 ```

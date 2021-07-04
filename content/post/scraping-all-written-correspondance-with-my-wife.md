@@ -3,7 +3,8 @@ title: "Scraping All Written Correspondance With My Wife"
 date: 2018-07-22T23:38:36-07:00
 draft: false
 type: post
-tags: programming, python
+tags: ["programming", "python"]
+summary: Scraping all the chats and emails with my 💖 better half 💖.
 ---
 
 # An Anniversary gift

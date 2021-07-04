@@ -2,7 +2,8 @@
 title: "Python Default Args as Functions"
 date: 2019-07-14T21:52:16-07:00
 draft: false
-tags: programming, python
+tags: ["programming", "python"]
+summary: are you sure you wanna put a function invocation as a default argument?
 ---
 
 ## **are you sure you wanna put a function invocation as a default argument?**

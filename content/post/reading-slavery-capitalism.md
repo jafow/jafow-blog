@@ -3,7 +3,8 @@ title: "Reading: Slavery & Capitalism"
 date: 2019-08-17T10:12:01-07:00
 draft: false
 type: post
-tags: nyt, reading-notes
+tags: ["nyt", "reading-notes"]
+summary: "the plantation and the modern business, from the New York Times' 1619 project"
 ---
 
 From [the Matthew Desmond

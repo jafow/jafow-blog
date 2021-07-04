@@ -1,24 +1,18 @@
 baseUrl = "/"
 languageCode = "en-us"
 title = "jafow blog"
-theme = "hugo-journal"
+theme = "accessible-minimalism"
 relativeURLs = true
 canonifyURLs = true
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
 
-[params]
-    description = "blog for jafow"
-    githubUsername = "jafow"
-    twitterUsername = "@jared_fowler"
-    tagline = "computers, sounds, p2p, misc"
-
-[params.work]
-    jobTitle = "software developer"
-
-[params.gpg]
-    key = "0x5BE40D6706B5EFB4"
-    fingerprint = "8979 F90F D8FD 1015 8BCE  A284 5BE4 0D67 06B5 EFB4"
-    link = "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x5BE40D6706B5EFB4"
-
-
-[params.author]
-    name = "Jared Fowler"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2

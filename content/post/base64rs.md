@@ -2,7 +2,8 @@
 title: "b64rs"
 date: 2018-10-02T23:15:26-07:00
 draft: false
-tags: rust, knowledge, programming
+tags: ["rust", "knowledge", "programming"]
+summary: "Making a base64 module in rust"
 ---
 
 # b'aGVsbG8gd29ybGQ='
